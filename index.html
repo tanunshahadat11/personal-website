@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanun Shahadat | Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style type="text/css">
+        .highlight{
+            color: rgb(0, 0, 8);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <h1>Tanun Shahadat</h1>
+    <button id="modeToggle" type="button" style="margin-bottom: 15px;"> Toggle Dark Mode</button>
+    <div id="nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="activities.html">Activities</a>
+        <a href="https://www.bracu.ac.bd" target="_blank">BRAC University</a>
+    </div>
+</div>
+<div id="about">
+    <h2>About Me</h2>
+    <img src="images/profile.jpg" alt="Profile Photo" class="profile-img" />
+    <p>
+        Hi I'm Tanun, a third year student at 
+        <span class="highlight">BRAC University</span> studying Computer Science.<br />
+        Currently I'm learning <strong>Web Development</strong>.<br />
+        I like to read books and spend my <em>free time</em> with my birds.
+    </p>
+    <blockquote>
+        "Loud is a way of life."
+    </blockquote>
+</div>
+<div id="favorites">
+    <h2>Top 5 Favorite Books</h2>
+    <ol>
+        <li>The Materese Dynasty</li>
+        <li>The King's Deception</li>
+        <li>Feluda Series</li>
+        <li>And then there were none</li>
+        <li>Jeeves and Wooster</li>
+    </ol>
+    <p>
+        I am also part of the 
+        <a href="https://discord.com/channels/1467294991951855688/1467294993029923114" target="_blank">
+            CSE 391 Discord channel
+        </a>.
+    </p>
+    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/e661f489613277.5dfa3a2503cf0.jpg"
+         alt="Book Illustration"
+         style="width:100%; max-width:400px;" />
+</div>
+<div id="education">
+    <h2>Education</h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">
+                        Bacheors of Science<br />
+                        in Computer Science
+                    </td>
+                    <td>BRAC University</td>
+                    <td>
+                        Studying CS.<br />
+                        Learning Web Development,<br />
+                        Databases and Algorithms.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Expected Graduation: 2027
+                    </td>
+                </tr>
+                <tr>
+                    <td>Higher Secondary</td>
+                    <td>Viqarunnisa Noon School &amp; College</td>
+                    <td>Science background with Mathematics &amp; Physics.</td>
+                </tr>
+                <tr>
+                    <td>Secondary School Certificate</td>
+                    <td>Viqarunnisa Noon School &amp; College</td>
+                    <td>Science background with Mathematics &amp; Physics.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xykdwvrl" method="post">
+        <div>
+            <label>Name:</label>
+            <input type="text" name="name"/>
+        </div>
+        <div>
+            <label>Email:</label>
+            <input type="text" name="email"/>
+        </div>
+        <div>
+            <label>Message:</label>
+            <textarea name="message" rows="4"></textarea>
+        </div>
+        <div>
+            <button type="submit">Send</button>
+        </div>
+    </form>
+</div>
+<div id="footer">
+    <p>&copy; 2026 Tanun Shahadat</p>
+    <p id="location"></p>
+    <p id="lastModified"></p>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

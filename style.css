@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+#header{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav a{
+    color: rgb(234, 224, 224);
+    margin: 10px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: orange;
+}
+#nav a:link,
+#nav a:visited,
+#nav a:hover,
+#nav a:active {
+    color: white;
+    text-decoration: none;
+}
+.profile-img{
+    width: 180px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.profile-img:hover{
+    transform: scale(1.05);
+}
+.online-img{
+    width: 300px;
+    margin-top: 20px;
+}
+#about,
+#favorites,
+#education,
+#contact{
+    padding: 20px;
+    animation: fadeIn 1s ease-in;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td{
+    border: 1px solid #333;
+    padding: 10px;
+}
+tbody tr:nth-child(even){
+    background-color: #eee;
+}
+#contact form div {
+    margin-bottom: 15px; 
+}
+tbody tr:hover{
+    background-color: #ddd;
+}
+.table-container{
+    overflow-x: auto;
+}
+button{
+    padding: 8px 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+.dark-mode{
+    background-color: #121212;
+    color: white;
+}
+.dark-mode header{
+    background-color: black;
+}
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
